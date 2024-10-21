@@ -1131,7 +1131,7 @@ footer {
 
 @keyframes scroll-down {
   from {
-    transform: translateY(-200%);
+    transform: translateY(-400%);
   }
   to {
     transform: translateY(100%);
