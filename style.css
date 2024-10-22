@@ -103,7 +103,6 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top:100px;
   padding-bottom: 300px;
   transition: all 0.5s ease;
 }
@@ -446,7 +445,7 @@ header {
     rgba(65, 85, 114, 0.1) 0%,
     rgba(65, 85, 114, 0) 100%
   );
-/*   animation-timing-function: linear; */
+  animation-timing-function: linear;
 }
 .a{
   scroll-behavior: smooth;
@@ -1131,7 +1130,7 @@ footer {
 
 @keyframes scroll-down {
   from {
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
   to {
     transform: translateY(100%);
