@@ -811,6 +811,11 @@ footer {
 .con {
   width: auto;
 }
+@media (min-width: 1170px) {
+.info-box .con{
+padding-left:60px;
+}
+}
 @media (max-width: 576px) {
   .resp {
     width: 500px;
